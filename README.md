@@ -1,8 +1,8 @@
-##
+# Chef cookbook static action
 This action performs the standard set of linting/static tests on a chef cookbook. Currently those are:
 
 * cookstyle -  https://github.com/chef/cookstyle
-* foodcritic
+* foodcritic - https://foodcritic.io
 
 ## Inputs
  none. We expect you to deviate from the default behavior of the tools via a checked-in `.rubocop.yml` or setting `FC*` environment variables for foodcritic.
@@ -13,4 +13,5 @@ This action performs the standard set of linting/static tests on a chef cookbook
  ## Example usage
  
  ```yaml
- uses: FastRobot/chef-cookbook-static-action```
+ uses: FastRobot/chef-cookbook-static-action
+```
