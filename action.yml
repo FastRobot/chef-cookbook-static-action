@@ -2,7 +2,7 @@ name: 'Chef Cookbook Static Tests'
 description: 'Fast linting tests to run on chef cookbooks'
 runs:
   using: 'docker'
-  image: 'Dockefile'
+  image: 'Dockerfile'
 branding:
   icon: 'heart'
   color: 'orange'
